@@ -8,12 +8,7 @@ class Solution {
         for(int i =0;i<t.length();i++){
             t1.put(t.charAt(i),t1.getOrDefault(t.charAt(i),0)+1);
         }
-        if(s1.equals(t1)){
-            return true;
-        }
-        else{
-            return false;
-        }
+        return s1.equals(t1);
            
 
 
